@@ -1,0 +1,31 @@
+{
+  "name": "@stellaround/auto-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "基于vite + vue-tsc + changelogen的自动化发版流程，其中包含构建、类型检查和版本管理",
+  "main": "src/index.js",
+  "bin": {
+    "auto-cli": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stellaround/auto-cli.git"
+  },
+  "author": "spectateur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stellaround/auto-cli.git/issues"
+  },
+  "homepage": "https://github.com/stellaround/auto-cli.git#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "execa": "^8.0.1",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
